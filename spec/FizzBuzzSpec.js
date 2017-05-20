@@ -6,14 +6,14 @@ describe("FizzBuzz", function() {
         fizzbuzz = new FizzBuzz();
     });
 
-    it("should return foo", function() {
-        var result = fizzbuzz.fizzbuzz('foo');
-        expect('foo').toEqual(result);
+    it("should return 1", function() {
+        var result = fizzbuzz.fizzbuzz(1);
+        expect(1).toEqual(result);
     });
 
-    it("should return bar", function() {
-        var result = fizzbuzz.fizzbuzz('bar');
-        expect('bar').toEqual(result);
+    it("should return fizz", function() {
+        var result = fizzbuzz.fizzbuzz(3);
+        expect('fizz').toEqual(result);
     });
 
 });
